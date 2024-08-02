@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="timer.css" />
+    <link rel="stylesheet" href="lost.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario Game</title>
+  </head>
+  <body>
+    <section class="modal-bg">
+      <section>
+        <div class="game-board">
+          <div>
+            <h2 id="timer">00:00:00</h2>
+          </div>
+          <img src="clouds.png" alt="" class="clouds" />
+          <img src="mario.gif" class="mario" />
+          <img src="pipe.png" class="pipe" />
+        </div>
+      </section>
+    </section>
+
+    <audio autoplay loop>
+      <source src="song.mp3" type="audio/mpeg" />
+      audio
+    </audio>
+
+    <script src="script.js"></script>
+    <script src="timer.js"></script>
+  </body>
+</html>

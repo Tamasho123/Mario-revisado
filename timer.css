@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "game";
+  src: url("04B_30__.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#timer {
+  font-family: "game";
+  margin: 10px;
+  font-size: 35px;
+}
